@@ -1,0 +1,9 @@
+﻿  program1_main.c
+C:\CL23\P1\P1\program1_main.c(17,9): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (949)
+  project2.main.c
+C:\CL23\P1\P1\project2.main.c(5,11): warning C4013: 'my_printf' undefined; assuming extern returning int
+C:\CL23\P1\P1\project2.main.c(6,12): warning C4013: 'my_printf2' undefined; assuming extern returning int
+C:\CL23\P1\P1\project2.main.c(7,12): warning C4013: 'my_printf3' undefined; assuming extern returning int
+C:\CL23\P1\P1\project2.main.c(7,13): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (949)
+  Generating Code...
+  P1.vcxproj -> C:\CL23\P1\Debug\P1.exe

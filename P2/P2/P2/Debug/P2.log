@@ -1,0 +1,5 @@
+﻿  my_lib1.c
+  my_lib2.c
+C:\Users\admin\source\repos\Project2\Project2\my_lib2.c(6,9): warning C4566: character represented by universal-character-name '\uFFFD' cannot be represented in the current code page (949)
+  Generating Code...
+  P2.vcxproj -> C:\CL23\P2\P2\Debug\P2.exe
