@@ -1,0 +1,7 @@
+﻿  p6_lib.c
+  p6_main.c
+C:\Users\rocke\Documents\GitHub\CL23\P6\P6\p6_main.c(9,8): warning C4305: '=': truncation from 'int' to 'char'
+  Generating Code...
+C:\Users\rocke\Documents\GitHub\CL23\P6\P6\p6_lib.c(12): warning C4716: 'print_wchar_info': must return a value
+C:\Users\rocke\Documents\GitHub\CL23\P6\P6\p6_lib.c(7): warning C4716: 'print_char_info': must return a value
+  P6.vcxproj -> C:\Users\rocke\Documents\GitHub\CL23\P6\Debug\P6.exe

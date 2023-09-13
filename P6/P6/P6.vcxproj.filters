@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="p4_lib.h">
+    <ClInclude Include="p6_lib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="p4_lib.c">
+    <ClCompile Include="p6_lib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="p4_main.c">
+    <ClCompile Include="p6_main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
