@@ -1,0 +1,24 @@
+﻿  p7_io.c
+C:\CL23\P7\P7\p7_io.c(10,10): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int **'
+C:\CL23\P7\P7\p7_io.c(17,10): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type 'int **'
+C:\CL23\P7\P7\p7_io.c(19,10): warning C4477: 'scanf_s' : format string '%f' requires an argument of type 'float *', but variadic argument 1 has type 'float **'
+  p7_io_main.c
+C:\CL23\P7\P7\p7_io_main.c(12,112): warning C4474: 'printf' : too many arguments passed for format string
+C:\CL23\P7\P7\p7_io_main.c(12,112): message : placeholders and their parameters expect 3 variadic arguments, but 4 were provided
+C:\CL23\P7\P7\p7_io_main.c(13,9): warning C4477: 'printf' : format string '%f' requires an argument of type 'double', but variadic argument 1 has type 'int'
+C:\CL23\P7\P7\p7_io_main.c(16,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+C:\CL23\P7\P7\p7_io_main.c(16,9): warning C4477: 'printf' : format string '%08x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int *'
+C:\CL23\P7\P7\p7_io_main.c(23,24): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\CL23\P7\P7\p7_io_main.c(51,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+C:\CL23\P7\P7\p7_io_main.c(52,9): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 1 has type 'double'
+C:\CL23\P7\P7\p7_io_main.c(70,10): warning C4477: 'scanf_s' : format string '%c' requires an argument of type 'char *', but variadic argument 1 has type 'int *'
+C:\CL23\P7\P7\p7_io_main.c(70,10): message : this argument is used by a conversion specifier
+C:\CL23\P7\P7\p7_io_main.c(70,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\CL23\P7\P7\p7_io_main.c(70,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\CL23\P7\P7\p7_io_main.c(70,10): message : the missing variadic argument 2 is required by format string '%c'
+C:\CL23\P7\P7\p7_io_main.c(70,10): message : this argument is used as a buffer size
+C:\CL23\P7\P7\p7_io_main.c(91,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+C:\CL23\P7\P7\p7_io_main.c(97,14): warning C4013: 'my_scanf2' undefined; assuming extern returning int
+C:\CL23\P7\P7\p7_io_main.c(35,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Generating Code...
+  P7.vcxproj -> C:\CL23\P7\Debug\P7.exe
