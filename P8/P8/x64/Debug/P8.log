@@ -1,0 +1,10 @@
+﻿  p8_main.c
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(8,11): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(9,14): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(13,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'double'
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(67,49): warning C4101: 'ui': unreferenced local variable
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(6,6): warning C4101: 'output': unreferenced local variable
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(6,14): warning C4101: 'output1': unreferenced local variable
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(6,29): warning C4101: 'f_output': unreferenced local variable
+C:\Users\rocke\Documents\GitHub\CL23\P8\P8\p8_main.c(91,24): warning C4101: 'output3': unreferenced local variable
+  P8.vcxproj -> C:\Users\rocke\Documents\GitHub\CL23\P8\x64\Debug\P8.exe
