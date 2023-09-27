@@ -1,25 +1,25 @@
 #include "p11_op.h"
 
-int my_op(int x, int y, int op) 
+void my_op(int x, int y, int op, int* result) 
 {
-	int result = 0; 
+	*result = 0; 
 
 	switch (op) 
 	{
 		case PLUS:
-			result = x + y;
+			*result = x + y;
 			break;
 		case MINUS:
-			result = x - y;
+			*result = x - y;
 			break;
 		case MULTIPLY:
-			result = x * y;
+			*result = x * y;
 			break;
 		case DIVIDE:
-			result = x / y;
+			*result = x / y;
 			break;
 		case REMAINDER:
-			result = x % y;
+			*result = x % y;
 			break;
 		default:
 			printf("Operator not supported!!\n");

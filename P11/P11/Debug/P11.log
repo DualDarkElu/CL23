@@ -2,7 +2,4 @@
 C:\CL23\P11\P11\p11_main.c(4,1): warning C4010: single-line comment contains line-continuation character
 C:\CL23\P11\P11\p11_main.c(10,36): warning C4013: 'atoi' undefined; assuming extern returning int
 C:\CL23\P11\P11\p11_main.c(15,1): warning C4010: single-line comment contains line-continuation character
-  p11_op.c
-C:\CL23\P11\P11\p11_op.c(34,1): warning C4010: single-line comment contains line-continuation character
-  Generating Code...
   P11.vcxproj -> C:\CL23\P11\Debug\P11.exe

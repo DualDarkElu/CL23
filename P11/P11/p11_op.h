@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int my_op(int x, int y, int op);
+void my_op(int x, int y, int op, int* result);
 void decimal_convert(int x, int y);
 
 #define PLUS 1
