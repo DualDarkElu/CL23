@@ -1,8 +1,10 @@
 #include "My_op.h"
 
+extern int runtime;
+extern int result = 0;
+
 int my_op(int x, int y, int op) 
 {
-	int result=0; 
 
 	switch (op) // 제어식(op) 값은 항상 정수이어야 한다.
 	{
@@ -24,12 +26,12 @@ int my_op(int x, int y, int op)
 	default:
 		printf("Operator not supported!!\n");
 	}
-	sum += result;
 	return(result);
 }
 
 void decimal_convert(int x, int y) // 호출될 때마다 매개변수 x, y 생성 및 초기화, 종료될 때 삭제
 {
+	runtime += 1;
 	if (x > 0)
 	{
 		decimal_convert(x / y, y);

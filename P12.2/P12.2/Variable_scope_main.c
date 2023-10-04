@@ -1,9 +1,11 @@
 #include "My_op.h"
 
+int runtime = 0;
+static int result = 0;
+
 int main(int argc, char *argv[])
 {
 	int x, y, op;
-	int result = 0; 
 	int repeat_limit = 10;
 	for (int i = 0; i < repeat_limit; i++)
 	{
@@ -20,8 +22,10 @@ int main(int argc, char *argv[])
 		printf("입력값 y : ");
 		scanf_s("%d", &y);
 		if (op == DECIMAL_CONVERT) { // 십진수 x를 y진수로 변환
+			runtime = 0;
 			urmomgay(x, y);
 			decimal_convert(x, y);// decimal_convert() 사용자 정의 함수
+			printf("\n함수 반복 횟수 = %d", runtime);
 			printf("\n\n");
 			continue;
 		}
@@ -32,7 +36,6 @@ int main(int argc, char *argv[])
 		}
 		result = my_op(x, y, op); // my_op() 사용자 정의 함수
 		printf("my_op 연산 결과 = %d\n\n", result);
-		printf("연산결과 누적 합계 : %d\n", sum);
 	}
 
 	return 0;

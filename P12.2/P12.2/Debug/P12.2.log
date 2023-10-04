@@ -1,5 +1,2 @@
-﻿  My_op.c
-  Variable_scope_main.c
-  Generating Code...
-Variable_scope_main.obj : error LNK2005: _sum already defined in My_op.obj
-C:\CL23\P12.2\Debug\P12.2.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  Variable_scope_main.c
+  P12.2.vcxproj -> C:\CL23\P12.2\Debug\P12.2.exe
