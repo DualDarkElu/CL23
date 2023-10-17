@@ -39,11 +39,11 @@ void decimal_convert(int x, int y) // 호출될 때마다 매개변수 x, y 생성 및 초기화
 	}
 }
 
-void urmomgay(int x, int y)
+void MeGeByeonSoo(int x, int y)
 {
 	if (x > 0)
 	{
-		urmomgay(x / y, y);
+		MeGeByeonSoo(x / y, y);
 		printf("(매개변수 x = %d, y = %d)\n", x, y);
 	}
 }
