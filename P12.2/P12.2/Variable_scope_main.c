@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		scanf_s("%d", &y);
 		if (op == DECIMAL_CONVERT) { // 십진수 x를 y진수로 변환
 			runtime = 0;
-			urmomgay(x, y);
+			MeGeByeonSoo(x, y);
 			decimal_convert(x, y);// decimal_convert() 사용자 정의 함수
 			printf("\n함수 반복 횟수 = %d", runtime);
 			printf("\n\n");
