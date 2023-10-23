@@ -1,0 +1,3 @@
+﻿  Array_functions.c
+C:\CL23\P13\P13\Array_functions.c(66,19): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  P13.vcxproj -> C:\CL23\P13\Debug\P13.exe
