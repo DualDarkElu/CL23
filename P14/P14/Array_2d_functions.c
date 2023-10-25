@@ -1,5 +1,7 @@
 #include "Array_2d.h"
 
+extern float min[4];
+
 void check_2D_array_address(float student[][4]) 
 // void check_2D_array_address(float student[][])와 같이 매개변수를 정의하면 어떤 문제가 발생할까?
 {
@@ -95,7 +97,9 @@ void average_exams(float student[][4], float average[], int num)
 
 void sort_des_student(float student[][4], int num) 
 {
-	int i, j, largest, temp[4];
+	int i, j, largest;
+
+	float temp[4];
 
 	for (i = 0; i < num; i++) 
 	{
@@ -123,7 +127,9 @@ void sort_asc_student(float student[][4], int num)
 {
 	// 문제4 : 학생의 평균 성적을 기준으로 2차원 배열 student[5][4]를 오름 차순으로 재정렬하여 저장하는 함수
     // sort_asc_student()를 이 위치에 작성하시오. 
-	int i, j, smallest, temp[4];
+	int i, j, smallest;
+
+	float temp[4];
 
 	for (i = 0; i < num; i++)
 	{

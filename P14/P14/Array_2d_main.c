@@ -8,7 +8,6 @@ int main(void)
 	float student1[5][4] = { 0 };
 	float average[4] = { 0 }; 
 	float max[4] = { 0 };
-	float min[4] = { 0 };
 	int i, j = 0;
 
 	// 배열 주소 확인
