@@ -1,0 +1,9 @@
+﻿  Array_2d_functions.c
+C:\CL23\P14\P14\Array_2d_functions.c(8,14): warning C4047: '=': 'float *' differs in levels of indirection from 'float (*)[4]'
+C:\CL23\P14\P14\Array_2d_functions.c(111,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\CL23\P14\P14\Array_2d_functions.c(113,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\CL23\P14\P14\Array_2d_functions.c(139,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\CL23\P14\P14\Array_2d_functions.c(141,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Array_2d_main.c
+  Generating Code...
+  P14.vcxproj -> C:\CL23\P14\Debug\P14.exe
