@@ -1,3 +1,5 @@
 ﻿  Array_2d_functions.c
-C:\CL23\P14\P14\Array_2d_functions.c(10,14): warning C4047: '=': 'float *' differs in levels of indirection from 'float (*)[4]'
-  P14.vcxproj -> C:\CL23\P14\Debug\P14.exe
+C:\Users\rocke\Documents\GitHub\CL23\P14\P14\Array_2d_functions.c(10,5): warning C4047: '=': 'float *' differs in levels of indirection from 'float (*)[4]'
+  Array_2d_main.c
+  Generating Code...
+  P14.vcxproj -> C:\Users\rocke\Documents\GitHub\CL23\P14\Debug\P14.exe
