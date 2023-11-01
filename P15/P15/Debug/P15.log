@@ -1,0 +1,10 @@
+﻿  Pointers_functions.c
+C:\CL23\P15\P15\Pointers_functions.c(14,22): warning C4028: formal parameter 1 different from declaration
+C:\CL23\P15\P15\Pointers_functions.c(14,35): warning C4028: formal parameter 2 different from declaration
+  Pointers_main.c
+C:\CL23\P15\P15\Pointers_main.c(204,19): warning C4047: 'function': 'int **' differs in levels of indirection from 'int [5]'
+C:\CL23\P15\P15\Pointers_main.c(204,13): warning C4024: 'data_swap3': different types for formal and actual parameter 1
+C:\CL23\P15\P15\Pointers_main.c(204,27): warning C4047: 'function': 'int **' differs in levels of indirection from 'int [5]'
+C:\CL23\P15\P15\Pointers_main.c(204,21): warning C4024: 'data_swap3': different types for formal and actual parameter 2
+  Generating Code...
+  P15.vcxproj -> C:\CL23\P15\Debug\P15.exe
