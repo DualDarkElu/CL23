@@ -26,7 +26,6 @@ int my_op(int x, int y, int op)
 	default:
 		printf("Operator not supported!!\n");
 	}
-	return(result);
 }
 
 void decimal_convert(int x, int y) // 호출될 때마다 매개변수 x, y 생성 및 초기화, 종료될 때 삭제
