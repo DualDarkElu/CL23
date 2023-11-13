@@ -1,0 +1,20 @@
+﻿  Char_string_main.c
+C:\CL23\P18\P18\Char_string_main.c(28,20): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\CL23\P18\P18\Char_string_main.c(34,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\CL23\P18\P18\Char_string_main.c(34,9): message : consider using '%zd' in the format string
+C:\CL23\P18\P18\Char_string_main.c(41,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\CL23\P18\P18\Char_string_main.c(41,9): message : consider using '%zd' in the format string
+C:\CL23\P18\P18\Char_string_main.c(42,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\CL23\P18\P18\Char_string_main.c(42,9): message : consider using '%zd' in the format string
+C:\CL23\P18\P18\Char_string_main.c(55,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\CL23\P18\P18\Char_string_main.c(55,9): message : consider using '%zd' in the format string
+C:\CL23\P18\P18\Char_string_main.c(179,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\CL23\P18\P18\Char_string_main.c(179,9): message : consider using '%zd' in the format string
+C:\CL23\P18\P18\Char_string_main.c(184,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\CL23\P18\P18\Char_string_main.c(184,9): message : consider using '%zd' in the format string
+C:\CL23\P18\P18\Char_string_main.c(189,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+C:\CL23\P18\P18\Char_string_main.c(189,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'char *'
+C:\CL23\P18\P18\Char_string_main.c(190,61): warning C4013: 'atoi' undefined; assuming extern returning int
+C:\CL23\P18\P18\Char_string_main.c(246,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+C:\CL23\P18\P18\Char_string_main.c(246,9): warning C4313: 'printf': '%d' in format string conflicts with argument 1 of type 'char *'
+  P18.vcxproj -> C:\CL23\P18\x64\Debug\P18.exe

@@ -1,0 +1,6 @@
+﻿  Char_string_main.c
+C:\CL23\P18\P18\Char_string_main.c(28,20): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\CL23\P18\P18\Char_string_main.c(189,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+C:\CL23\P18\P18\Char_string_main.c(190,61): warning C4013: 'atoi' undefined; assuming extern returning int
+C:\CL23\P18\P18\Char_string_main.c(237,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+  P18.vcxproj -> C:\CL23\P18\Debug\P18.exe
