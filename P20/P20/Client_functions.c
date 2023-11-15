@@ -36,7 +36,7 @@ void input_client_pointer2(struct client_info1* client1)
 	printf("구매금액 :");
 	scanf_s("%lf", &client1->pamount);
 	printf("생년월일(YYYY MM DD) :");
-	scanf_s("%d %d %d", &client1->birth.year, &client1->birth.month, &client1->birth.day);
+	scanf_s("%d %d %d", &client1->birth->year, &client1->birth->month, &client1->birth->day);
 }
 
 // 문제 2 : Client.h에 정의된 struct client_info1 구조체 타입으로 정의된 client3 변수의 고객 정보를 출력하는 
@@ -47,7 +47,7 @@ void output_client2(struct client_info1 client)
 	printf("고객번호 : %d\n", client.no);
 	printf("고객이름 : %s\n", client.name);
 	printf("구매금액 : %.2f\n", client.pamount);
-	printf("생년월일(YYYY/MM/DD): %d/%d/%d\n\n", client.birth.year, client.birth.month, client.birth.day);
+	printf("생년월일(YYYY/MM/DD): %d/%d/%d\n\n", client.birth->year, client.birth->month, client.birth->day);
 }
 
 // 문제 3. Client_functions.c 소스 파일에 구조체 배열 매개 변수로 작성된 input_client_all() 함수를 구조체 포인터 매개 변수로 변경하고
