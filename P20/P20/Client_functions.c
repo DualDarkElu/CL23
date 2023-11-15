@@ -39,6 +39,7 @@ void input_client_pointer2(struct client_info1* client1)
 	scanf_s("%d %d %d", &client1->birth->year, &client1->birth->month, &client1->birth->day);
 }
 
+
 // 문제 2 : Client.h에 정의된 struct client_info1 구조체 타입으로 정의된 client3 변수의 고객 정보를 출력하는 
 // output_client2() 함수를 Client_functions.c 소스 파일에 작성하시오.
 void output_client2(struct client_info1 client)

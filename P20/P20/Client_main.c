@@ -37,10 +37,10 @@ int main(void)
 	// 질문 3. client1 변수의 크기는 얼마인가?
 
 	struct client_info_test client_test;
-	// 질문 3. client_test 변수의 크기는 얼마인가?
+	// 질문 3. client_test 변수의 크기는 얼마인가? 4
 
 	struct client_info_test1 client_test1;
-	// 질문 4. client_test1 변수의 크기는 얼마인가?
+	// 질문 4. client_test1 변수의 크기는 얼마인가? 56
 
 
 	// 2. 구조체 포인터 변수와 멤버 변수 접근 연산자 ->
@@ -57,9 +57,10 @@ int main(void)
 	output_client(client2);
 
 	// 질문 5. 다음과 같이 input_client_pointer1() 함수를 호출하면 어떻게 될까?
+	/*
 	struct client_info* clientp = NULL;
 	input_client_pointer1(clientp);
-
+	*/
 
 	// 문제 1 : Client.h에 정의된 struct client_info1 구조체 타입으로 정의된 client3 변수에 고객 정보를 입력하는 
 	// input_client_pointer2() 함수를 Client_functions.c 소스 파일에 작성하시오.
