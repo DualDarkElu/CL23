@@ -68,6 +68,9 @@ int main(void)
 	struct client_info1 client3;
 	
 	// 이 위치에 적절한 코드를 추가하라.
+	struct date birth1;
+	client3.birth = &birth1;
+
 
 	// input_client_pointer2() 함수를 Client_functions.c 소스 파일에 작성하라.
 	input_client_pointer2(&client3);

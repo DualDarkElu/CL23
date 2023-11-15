@@ -11,7 +11,7 @@ void input_client_pointer1(struct client_info* client1) // 구조체 포인터 매개 변
 	printf("구매금액 :");
 	scanf_s("%lf", &client1->pamount);
 	printf("생년월일(YYYY MM DD) :");
-	scanf_s("%d %d %d", &client1->birth.year, &client1->birth.month, &client1->birth.day);
+	scanf_s("%d %d %d", &(client1->birth.year), &(client1->birth.month), &(client1->birth.day));
 }
 
 
@@ -36,7 +36,7 @@ void input_client_pointer2(struct client_info1* client1)
 	printf("구매금액 :");
 	scanf_s("%lf", &client1->pamount);
 	printf("생년월일(YYYY MM DD) :");
-	scanf_s("%d %d %d", &client1->birth->year, &client1->birth->month, &client1->birth->day);
+	scanf_s("%d %d %d", &(client1->birth->year), &(client1->birth->month), &(client1->birth->day));
 }
 
 
