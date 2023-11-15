@@ -20,7 +20,7 @@ int main(void)
 	} test_var;
 	
 	printf("\ntest_var 구조체 크기 : %d\n", sizeof(test_var));
-	printf("\ntest_var 구조체 메모리 주소 : %d\n", &test_var);
+	printf("\ntest_var 구조체 메모리 주소 : %p\n", &test_var);
 
 	// 질문 1. test_var 구조체 변수에 할당된 메모리의 크기가 8의 배수인가?
 	// 질문 2. 십진수로 출력한 test_var 구조체 변수의 시작 주소는 8의 배수인가?
