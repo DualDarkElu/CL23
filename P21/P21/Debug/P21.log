@@ -1,0 +1,6 @@
+﻿  Client_link_functions.c
+  Client_management_link_main.c
+C:\CL23\P21\P21\Client_management_link_main.c(96,13): warning C4013: 'add_client1' undefined; assuming extern returning int
+C:\CL23\P21\P21\Client_management_link_main.c(108,13): warning C4013: 'add_client2' undefined; assuming extern returning int
+  Generating Code...
+  P21.vcxproj -> C:\CL23\P21\Debug\P21.exe
