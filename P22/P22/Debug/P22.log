@@ -1,0 +1,13 @@
+﻿  Union_enum_typedef_macro.c
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(21,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'Byte_type'
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(54,12): warning C4477: 'scanf_s' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type '__int64 *'
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(54,12): message : consider using '%lld' in the format string
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(54,12): message : consider using '%I64d' in the format string
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(73,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(73,11): message : consider using '%lld' in the format string
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(73,11): message : consider using '%I64d' in the format string
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(82,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(82,46): warning C4474: 'printf' : too many arguments passed for format string
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(82,46): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+C:\CL23\P22\P22\Union_enum_typedef_macro.c(110,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'BYTE3221'
+  P22.vcxproj -> C:\CL23\P22\Debug\P22.exe
